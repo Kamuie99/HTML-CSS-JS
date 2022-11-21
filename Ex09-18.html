@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선택된 물품 계산하기</title>
+    <script src="Ex09-18.js"></script>
+</head>
+<body>
+    <h3>물품을 선택하면 금액이 자동 계산됩니다.</h3>
+    <hr>
+    <form>
+        <input type="checkbox" name="hap" value="10000"
+               onclick="calc(this)">모자 1만원
+        <input type="checkbox" name="shose" value="30000"
+               onclick="calc(this)">구두 1만원
+        <input type="checkbox" name="bag" value="80000"
+               onclick="calc(this)">명품가방 1만원<br>
+    지불하실 금액 <input type="text" id="sumtext" value="0">
+    </form>
+</body>
+</html>
